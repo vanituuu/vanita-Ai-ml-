@@ -7,7 +7,7 @@ This repository contains complete Python notes and code examples for beginners.
 
 ## 📘 Topics Covered
 
-### 1️⃣ Introduction to Python   (introduction/Intro.md)
+- [Introduction](introduction/Intro.md)
 - What is Python    
 - Running first program  
 
