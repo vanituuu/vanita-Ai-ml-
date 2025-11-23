@@ -83,6 +83,7 @@ Indentation in Python:
 In Python, Indentation is used to define blocks of code. It tells the Python interpreter that a group of statements belongs to a specific block. All statements with the same level of indentation are considered part of the same block. Indentation is achieved using whitespace (spaces or tabs) at the beginning of each line. The most common convention is to use 4 spaces or a tab, per level of indentation.
 
 Data types
+
 Data types in Python are a way to classify data items. They represent the kind of value, which determines what operations can be performed on that data. Since everything is an object in Python programming, Python data types are classes and variables are instances (objects) of these classes.
 
 The following are standard or built-in data types in Python:
@@ -97,6 +98,7 @@ Complex Example 1 + j, 2 + 4j
 
 
 String
+
 Strings in Python can be created using single quotes, double quotes or even triple quotes. We can access individual characters of a String using index.
 Example:
 
@@ -106,6 +108,8 @@ s = 'Welcome to the Python'
 print(s)
 
 Booleans
+
+
 A boolean data type is either a True or False value. T and F should be always uppercase.
 
 Example:
@@ -130,6 +134,7 @@ print(b)
 
 
 Tuple
+
 Tuple is an ordered collection of Python objects. The only difference between a tuple and a list is that tuples are immutable. Tuples cannot be modified after it is created.
 Example:
 # initiate empty tuple
@@ -140,6 +145,7 @@ print("\nTuple with the use of String: ", tup2)
 
 
 Set
+
 In Python Data Types, Set is an unordered collection of data types that is iterable, mutable, and has no duplicate elements. The order of elements in a set is undefined though it may consist of various elements.
 
 Example:
@@ -154,6 +160,8 @@ for i in set1:
 print("Morning" in set1)
 
 Dictionary
+
+
 A dictionary in Python is a collection of data values.A Dictionary holds a key: value pair. Key-value is provided in dictionary to make it more optimized. Each key-value pair in a Dictionary is separated by a colon : , whereas each key is separated by a ‘comma’.
 
 Example:
