@@ -83,22 +83,28 @@ Indentation in Python:
 In Python, Indentation is used to define blocks of code. It tells the Python interpreter that a group of statements belongs to a specific block. All statements with the same level of indentation are considered part of the same block. Indentation is achieved using whitespace (spaces or tabs) at the beginning of each line. The most common convention is to use 4 spaces or a tab, per level of indentation.
 
 Data types
-In Python there are several types of data types. Let us get started with the most common ones. Different data types will be covered in detail in other sections. For the time being, let us just go through the different data types and get familiar with them. You do not have to have a clear understanding now.
+Data types in Python are a way to classify data items. They represent the kind of value, which determines what operations can be performed on that data. Since everything is an object in Python programming, Python data types are classes and variables are instances (objects) of these classes.
 
-Number
-Integer: Integer(negative, zero and positive) numbers Example: ... -3, -2, -1, 0, 1, 2, 3 ...
-Float: Decimal number Example ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
+The following are standard or built-in data types in Python:
+
+Numeric: int, float, complex
+Sequence Type: string, list, tuple
+Mapping Type: dict
+Boolean: bool
+Set Type: set, frozenset
+Binary Types: bytes, bytearray, memoryview
 Complex Example 1 + j, 2 + 4j
-String
-A collection of one or more characters under a single or double quote. If a string is more than one sentence then we use a triple quote.
 
+
+String
+Strings in Python can be created using single quotes, double quotes or even triple quotes. We can access individual characters of a String using index.
 Example:
 
-'Asabeneh'
-'Finland'
 'Python'
-'I love teaching'
-'I hope you are enjoying the first day of 30DaysOfPython Challenge'
+
+s = 'Welcome to the Python'
+print(s)
+
 Booleans
 A boolean data type is either a True or False value. T and F should be always uppercase.
 
@@ -107,41 +113,57 @@ Example:
     True  #  Is the light on? If it is on, then the value is True
     False # Is the light on? If it is off, then the value is False
 List
-Python list is an ordered collection which allows to store different data type items. A list is similar to an array in JavaScript.
+Python list is an ordered collection which allows to store different data type items.Lists in Python can be created by just placing sequence inside the square brackets[].
 
 Example:
 
-[0, 1, 2, 3, 4, 5]  # all are the same data types - a list of numbers
-['Banana', 'Orange', 'Mango', 'Avocado'] # all the same data types - a list of strings (fruits)
-['Finland','Estonia', 'Sweden','Norway'] # all the same data types - a list of strings (countries)
-['Banana', 10, False, 9.81] # different data types in the list - string, integer, boolean and float
-Dictionary
-A Python dictionary object is an unordered collection of data in a key value pair format.
+# Empty list
+a = []
 
-Example:
+# list with int values
+a = [1, 2, 3]
+print(a)
 
-{
-'first_name':'Asabeneh',
-'last_name':'Yetayeh',
-'country':'Finland', 
-'age':250, 
-'is_married':True,
-'skills':['JS', 'React', 'Node', 'Python']
-}
+# list with mixed values int and String
+b = ["Welcome", "Everybody", 4, 5]
+print(b)
+
+
 Tuple
-A tuple is an ordered collection of different data types like list but tuples can not be modified once they are created. They are immutable.
-
+Tuple is an ordered collection of Python objects. The only difference between a tuple and a list is that tuples are immutable. Tuples cannot be modified after it is created.
 Example:
+# initiate empty tuple
+tup1 = ()
 
-('Asabeneh', 'Pawel', 'Brook', 'Abraham', 'Lidiya') # Names
-('Earth', 'Jupiter', 'Neptune', 'Mars', 'Venus', 'Saturn', 'Uranus', 'Mercury') # planets
+tup2 = ('Morning', 'For')
+print("\nTuple with the use of String: ", tup2)
+
+
 Set
-A set is a collection of data types similar to list and tuple. Unlike list and tuple, set is not an ordered collection of items. Like in Mathematics, set in Python stores only unique items.
+In Python Data Types, Set is an unordered collection of data types that is iterable, mutable, and has no duplicate elements. The order of elements in a set is undefined though it may consist of various elements.
 
-In later sections, we will go in detail about each and every Python data type.
+Example:
+set1 = set(["Morning", "and", "Morning"]) #Duplicates are removed automatically
+print(set1) 
+
+# loop through set
+for i in set1:
+   print(i, end=" ") #prints elements one by one
+  
+# check if item exist in set   
+print("Morning" in set1)
+
+Dictionary
+A dictionary in Python is a collection of data values.A Dictionary holds a key: value pair. Key-value is provided in dictionary to make it more optimized. Each key-value pair in a Dictionary is separated by a colon : , whereas each key is separated by a ‘comma’.
 
 Example:
 
-{2, 4, 3, 5}
-{3.14, 9.81, 2.7} # order is not important in set
+# initialize empty dictionary
+d = {}
 
+d = {1: 'Good Morning', 2: 'All', 3: 'of you'}
+print(d)
+
+# creating dictionary using dict() constructor
+d1 = dict({1: 'Good Morning', 2: 'All', 3: ''})
+print(d1)
