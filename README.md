@@ -12,7 +12,8 @@ This repository contains complete Python notes and code examples for beginners.
 - What is Python    
 - Running first program  
 
-### 2️⃣ Variables  
+### 2️⃣ Variables 
+- [Variables](Variable/Variable.md)
 - Rules for variables  
 - Assigning values  
 - Multiple assignment  
