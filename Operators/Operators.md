@@ -1,4 +1,4 @@
-Python Operators
+# Python Operators
 
 
 In Python programming, Operators in general are used to perform operations on values and variables.
@@ -11,7 +11,7 @@ Types of Operators in Python
 
 Operators-in-python
 
-1.Arithmetic Operators
+# 1.Arithmetic Operators
 
 Python Arithmetic operators are used to perform basic mathematical operations like addition, subtraction, multiplication and division.
 
@@ -69,7 +69,7 @@ volume = 0.075 # in cubic meter
 density = mass / volume # 1000 Kg/m^3
 
 
-2. Assignment Operators
+# 2. Assignment Operators
 Assignment operators are used to assign values to variables. For example,
 
 # assign 5 to x 
@@ -110,7 +110,7 @@ print(a)
 # Output: 15
 
 
-3. Comparison Operators
+# 3. Comparison Operators
 In Python, Comparison (or Relational) operators compares values. It either returns True or False according to the condition.
 
 
@@ -182,7 +182,7 @@ print(a == b)
 
 print(a is b)
 
-is' operator
+# is' operator
 
 The is operator checks if two variables refer to the same object in memory, rather than just having equal values. It returns True only if both variables point to the exact same object in memory.
 
@@ -198,7 +198,7 @@ y = x    # y points to the same memory location as x
 ​
 print(x is y)
 
-== operator
+# == operator
 The == operator checks if two objects contain the same values, regardless of whether they are stored in the same memory location.
 
 Example:
@@ -216,8 +216,8 @@ b = [1, 2, 3]
 ​
 print(a == b)
 
-4. Logical Operators
-5. 
+# 4. Logical Operators
+
 Python Logical operators perform Logical AND, Logical OR and Logical NOT operations. It is used to combine conditional statements.
 
 The precedence of Logical Operators in Python is as follows:
@@ -262,7 +262,7 @@ if not b:
 
     print("b is False (NOT condition).")
 
-5.Bitwise Operators
+# 5.Bitwise Operators
 
 Python Bitwise operators act on bits and perform bit-by-bit operations. These are used to operate on binary numbers.
 
@@ -296,7 +296,7 @@ print(a >> 2)
 
 print(a << 2)
 
-6. Ternary Operator
+# 6. Ternary Operator
 In Python, Ternary operators also known as conditional expressions are operators that evaluate something based on a condition being true or false. 
 
 It simply allows testing a condition in a single line replacing the multiline if-else, making the code compact.
