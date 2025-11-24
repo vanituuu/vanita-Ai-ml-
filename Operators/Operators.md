@@ -41,6 +41,7 @@ print('a % b = ', remainder)
 print('a // b = ', floor_division)
 print('a ** b = ', exponentiation)
 
+```Python
 
 Let us start start connecting the dots and start making use of what we already know to calculate (area, volume,density, weight, perimeter, distance, force).
 
