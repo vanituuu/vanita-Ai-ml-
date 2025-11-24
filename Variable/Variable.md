@@ -121,7 +121,7 @@ print(f)
 print(s2)  
 
 
- Swapping Two Variables
+ 1.Swapping Two Variables
  
 Using multiple assignments, we can swap the values of two variables without needing a temporary variable.
 
@@ -131,6 +131,30 @@ a, b = 5, 10
 a, b = b, a
 
 print(a, b)  
+
+2. Counting Characters in a String
+
+Assign the results of multiple operations on a string to variables in one line.
+
+
+word = "Python"
+
+length = len(word)
+
+print("Length of the word:", length) 
+
+
+Delete a Variable Using del Keyword
+
+We can remove a variable from the namespace using the del keyword. This deletes the variable and frees up the memory it was using.
+
+x = 10
+print(x) 
+del x
+# Trying to print x after deletion will raise an error
+# print(x)  # Uncommenting this line will raise NameError: name 'x' is not defined
+del x removes the variable x from memory.
+After deletion, trying to access the variable x results in a NameError indicating that the variable no longer exists.
 
 
 [Introduction](introduction/intro.md)
