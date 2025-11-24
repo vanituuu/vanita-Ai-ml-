@@ -16,7 +16,7 @@ Operators-in-python
 Python Arithmetic operators are used to perform basic mathematical operations like addition, subtraction, multiplication and division.
 
 Example:
-
+```Python
 # Declaring the variable at the top first
 
 a = 3 # a is a variable name and 3 is an integer data type
