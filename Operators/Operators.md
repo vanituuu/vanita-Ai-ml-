@@ -262,5 +262,54 @@ if not b:
 
     print("b is False (NOT condition).")
 
+5.Bitwise Operators
+
+Python Bitwise operators act on bits and perform bit-by-bit operations. These are used to operate on binary numbers.
+
+Bitwise Operators in Python are as follows:
+
+Bitwise NOT
+
+Bitwise Shift
+
+Bitwise AND
+
+Bitwise XOR
+
+Bitwise OR
+
+
+
+a = 10
+
+b = 4
+
+print(a & b)
+
+print(a | b)
+
+print(~a)
+
+print(a ^ b)
+
+print(a >> 2)
+
+print(a << 2)
+
+6. Ternary Operator
+In Python, Ternary operators also known as conditional expressions are operators that evaluate something based on a condition being true or false. 
+
+It simply allows testing a condition in a single line replacing the multiline if-else, making the code compact.
+
+Syntax :  [on_true] if [expression] else [on_false] 
+
+
+
+
+a, b = 10, 20
+
+min = a if a < b else b
+
+print(min)
 
 
