@@ -19,7 +19,7 @@ This repository contains complete Python notes and code examples for beginners.
 - Multiple assignment  
 
 ### 3️⃣ Data Types 
--[Data Type](Data Type/Data Type.md)
+-[Data Type](Data_Type/Data_Type.md)
 - int, float, string  
 - list, tuple, dict  
 - type() function  
