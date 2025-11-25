@@ -24,33 +24,40 @@ This repository contains complete Python notes and code examples for beginners.
 - list, tuple, dict  
 - type() function  
 
-### 4️⃣ Conditions  
+### 4️⃣ Operators
+-[Operators](Operators/Operators.md)
+- Arithmetics Operators
+- Assignment Operators
+- Logical Operators
+- Bitwise Operators
+- Comparison Operators
+
+### 5️⃣ Conditions  
 - if  
 - if-else  
 - elif  
-- nested conditions  
-
-### 5️⃣ Loops  
+- nested conditions 
+### 6️⃣ Loops  
 - for loop  
 - while loop  
 - break  
 - continue  
 
-### 6️⃣ Functions  
+### 7️⃣ Functions  
 - Defining functions  
 - Arguments  
 - Return values  
 - Default parameters  
 
-### 7️⃣ Lists  
+### 8️⃣ Lists  
 - Adding items  
 - Removing items  
 - Looping lists  
 
-### 8️⃣ Tuples  
+### 9️⃣ Tuples  
 - Immutable sequences  
 
-### 9️⃣ Dictionaries  
+### 🔟Dictionaries  
 - Key-value pairs  
 - Adding, updating, deleting  
 
