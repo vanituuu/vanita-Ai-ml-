@@ -33,6 +33,7 @@ exponential = a ** b
 ```
 
 # I should have used sum instead of total but sum is a built-in function - try to avoid overriding built-in functions
+python```
 print(total) # if you do not label your print with some string, you never know where the result is coming from
 print('a + b = ', total)
 print('a - b = ', diff)
@@ -42,30 +43,34 @@ print('a % b = ', remainder)
 print('a // b = ', floor_division)
 print('a ** b = ', exponentiation)
 
-Python```
+```
 
 Let us start start connecting the dots and start making use of what we already know to calculate (area, volume,density, weight, perimeter, distance, force).
 
 Example:
 
 # Calculating area of a circle
+python```
 radius = 10                                 # radius of a circle
 area_of_circle = 3.14 * radius ** 2         # two * sign means exponent or power
 print('Area of a circle:', area_of_circle)
 
 # Calculating area of a rectangle
+python```
 length = 10
 width = 20
 area_of_rectangle = length * width
 print('Area of rectangle:', area_of_rectangle)
 
 # Calculating a weight of an object
+python```
 mass = 75
 gravity = 9.81
 weight = mass * gravity
 print(weight, 'N')                         # Adding unit to the weight
 
 # Calculate the density of a liquid
+python```
 mass = 75 # in Kg
 volume = 0.075 # in cubic meter
 density = mass / volume # 1000 Kg/m^3
@@ -99,23 +104,28 @@ Operator	Name	Example
 Example 2: Assignment Operators
 
 # assign 10 to a
+python```
 a = 10
+```
 
-# assign 5 to b
+assign 5 to b
+python```
 b = 5 
-
-# assign the sum of a and b to a
+```
+assign the sum of a and b to a
+python```
 a += b      # a = a + b
 
 print(a)
 
-# Output: 15
+Output: 15
+```
 
 
 # 3. Comparison Operators
 In Python, Comparison (or Relational) operators compares values. It either returns True or False according to the condition.
 
-
+python```
 a = 13
 b = 33
 ​
@@ -144,6 +154,7 @@ print(len('milk') == len('meat'))      # True
 print(len('tomato') == len('potato'))  # True
 
 print(len('python') > len('dragon'))   # False
+```
 
 In addition to the above comparison operator Python uses:
 
@@ -154,6 +165,8 @@ is not: Returns true if both variables are not the same object(x is not y)
 in: Returns True if the queried list contains a certain item(x in y)
 
 not in: Returns True if the queried list doesn't have a certain item(x in y)
+
+python```
 
 print('1 is 1', 1 is 1)                   # True - because the data values are the same
 
@@ -168,6 +181,7 @@ print('coding' in 'coding for all') # True - because coding for all has the word
 print('a in an:', 'a' in 'an')      # True
 
 print('4 is 2 ** 2:', 4 is 2 ** 2)   # True
+```
 
 In Python, both is and == are used for comparison, but they serve different purposes:
 
@@ -175,7 +189,7 @@ In Python, both is and == are used for comparison, but they serve different purp
 
 is (Identity Operator) → Compares memory location of two objects.
 
-
+python```
 a = [1,2,3]
 
 b = [1,2,3]
@@ -183,15 +197,16 @@ b = [1,2,3]
 print(a == b)  
 
 print(a is b)
+```
 
-# is' operator
+ # is' operator
 
 The is operator checks if two variables refer to the same object in memory, rather than just having equal values. It returns True only if both variables point to the exact same object in memory.
 
 Example:
 
 points to the same memory location as x
-
+python```
 print(x is y)
 
 x = [10, 20, 30]
@@ -199,13 +214,13 @@ x = [10, 20, 30]
 y = x    # y points to the same memory location as x
 ​
 print(x is y)
+```
 
 # == operator
 The == operator checks if two objects contain the same values, regardless of whether they are stored in the same memory location.
 
 Example:
-
-
+python```
 a = [1, 2, 3]
 
 b = [1, 2, 3]
@@ -217,6 +232,7 @@ a = [1, 2, 3]
 b = [1, 2, 3]
 ​
 print(a == b)
+```
 
 # 4. Logical Operators
 
@@ -230,8 +246,7 @@ logical and
 
 logical or
 
-
-
+python```
 a = True
 
 b = False
@@ -241,9 +256,10 @@ print(a and b)
 print(a or b)
 
 print(not a)
+```
 
 # Example: Logical Operators (AND, OR, NOT) with generic variables
-
+python```
 a, b, c = True, False, True
 ​
 # AND: Both conditions must be True
@@ -263,6 +279,7 @@ if b or c:
 if not b:
 
     print("b is False (NOT condition).")
+    ```
 
 # 5.Bitwise Operators
 
@@ -279,9 +296,7 @@ Bitwise AND
 Bitwise XOR
 
 Bitwise OR
-
-
-
+python```
 a = 10
 
 b = 4
@@ -297,6 +312,8 @@ print(a ^ b)
 print(a >> 2)
 
 print(a << 2)
+```
+
 
 # 6. Ternary Operator
 In Python, Ternary operators also known as conditional expressions are operators that evaluate something based on a condition being true or false. 
@@ -306,7 +323,7 @@ It simply allows testing a condition in a single line replacing the multiline if
 Syntax :  [on_true] if [expression] else [on_false] 
 
 
-
+python```
 
 a, b = 10, 20
 
@@ -314,4 +331,4 @@ min = a if a < b else b
 
 print(min)
 
-
+```
