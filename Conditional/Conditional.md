@@ -5,11 +5,12 @@ Conditional statements in Python are used to execute certain blocks of code base
 **If Conditional Statement**
 
 If statement is the simplest form of a conditional statement. It executes a block of code if the given condition is true.
-
+```py
  #syntax
  
 if condition:
     this part of code runs for truthy conditions
+```
 
 **Example**
 ```python
@@ -19,9 +20,7 @@ if age >= 18:
 ```
 
 **Short Hand**
-#syntax
 
-• code if condition 
 ```python
 age=20
 if age>=18 : print("Eligible to vote.")
@@ -30,14 +29,17 @@ if age>=18 : print("Eligible to vote.")
 
 If Else allows us to specify a block of code that will execute if the condition(s) associated with an if or elif statement evaluates to False. Else block provides a way to handle all other cases that don't meet the specified conditions.
 
+```py
 #syntax
 
 if condition:
     this part of code runs for truthy conditions
 else:
      this part of code runs for false conditions
+```
      
 **Example**
+
 ```Python
 age = 10
 if age <= 12:
@@ -46,7 +48,7 @@ else:
     print("Pay for ticket.")
 ```
 **Short Hand**
-
+```py
 #syntax
 
 code if condition else code
@@ -54,7 +56,7 @@ code if condition else code
 age = 20
 result = "Eligible for vote" if age>=18 else "Not eligible for vote"
 print("result is",result)
-
+```
 
 # elif Statement
 
@@ -95,13 +97,15 @@ We can avoid writing nested condition by using logical operator and.
 
 If Condition and Logical Operators
 
+```py
 #syntax
 
 if condition and condition:
     code
-    
+```   
 **Example:**
 
+```py
 a = 0
 if a > 0 and a % 2 == 0:
         print('A is an even and positive integer')
@@ -111,20 +115,21 @@ elif a == 0:
     print('A is zero')
 else:
     print('A is negative')
+```
     
 **If and Or Logical Operators**
-
+```py
 #syntax
 
 if condition or condition:
     code
-Example:
-
+```
+**Example:**
+```py
 user = 'James'
 access_level = 3
 if user == 'admin' or access_level >= 4:
         print('Access granted!')
 else:
     print('Access denied!')
-
-
+```
