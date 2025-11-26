@@ -1,6 +1,6 @@
-# Python Full Course
+# Python with me
 
-Welcome to my **Python Full Course**.  
+Let start **Python**.  
 This repository contains complete Python notes and code examples for beginners.
 
 ---
