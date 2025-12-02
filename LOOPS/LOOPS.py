@@ -59,7 +59,7 @@ else:
     print("This is not an Armstrong number.")
 
 
-# LCM using while loop.
+# 6. LCM using while loop.
 num1 = int(input("Enter the  number:"))
 num2 = int(input("Enter the number:"))
 Greater = 0
