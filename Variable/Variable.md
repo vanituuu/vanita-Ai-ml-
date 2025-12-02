@@ -1,8 +1,8 @@
-Variables
+# Variables
 
 Variables store data in a computer memory. Mnemonic variables are recommended to use in many programming languages. A mnemonic variable is a variable name that can be easily remembered and associated. A variable refers to a memory address in which data is stored. Number at the beginning, special character, hyphen are not allowed when naming a variable. A variable can have a short name (like x, y, z), but a more descriptive name (firstname, lastname, age, country) is highly recommended.
 
-Python Variable Name Rules
+**Python Variable Name Rules**
 
 A variable name must start with a letter or the underscore character
 
@@ -56,14 +56,14 @@ first$name
 num-1
 
 
-Assigning the Same Value
+# Assigning the Same Value
 
 Python allows assigning the same value to multiple variables in a single line, which can be useful for initializing variables with the same value.
 
-
+```py
 a = b = c = 100
 print(a, b, c) 
-
+```
 Type Casting a Variable
 
 Type casting refers to the process of converting the value of one data type into another. Python provides several built-in functions to facilitate casting, including int(), float() and str() among others.
@@ -75,7 +75,7 @@ int(): Converts compatible values to an integer.
 float(): Transforms values into floating-point numbers.
 
 str(): Converts any data type into a string.
-
+```py
 s = "10"  
 n = int(s) 
 cnt = 5
@@ -85,13 +85,13 @@ s2 = str(age)
 
 print(n)  
 
-
+```
 
 Getting the Type of Variable
 
 In Python, we can determine the type of a variable using the type() function. This built-in function returns the type of the object passed to it.
 
-
+```py
 n = 42
 
 f = 3.14
@@ -120,37 +120,42 @@ print(f)
 
 print(s2)  
 
+```
 
- 1.Swapping Two Variables
+# 1.Swapping Two Variables
  
 Using multiple assignments, we can swap the values of two variables without needing a temporary variable.
 
-
+``py
 a, b = 5, 10
 
 a, b = b, a
 
 print(a, b)  
+```
 
-2. Counting Characters in a String
+# 2. Counting Characters in a String
 
 Assign the results of multiple operations on a string to variables in one line.
 
-
+```py
 word = "Python"
 
 length = len(word)
 
 print("Length of the word:", length) 
 
+```
 
-Delete a Variable Using del Keyword
+**Delete a Variable Using del Keyword**
 
 We can remove a variable from the namespace using the del keyword. This deletes the variable and frees up the memory it was using.
 
+```py
 x = 10
 print(x) 
-del x
+del( x)
+```
 # Trying to print x after deletion will raise an error
 # print(x)  # Uncommenting this line will raise NameError: name 'x' is not defined
 del x removes the variable x from memory.
