@@ -83,6 +83,10 @@ For loops is used to iterate over a sequence such as a list, tuple, string or ra
 
 repeatedly, once for each item in the sequence.
 
+# syntax
+for iterator in lst:
+    code goes here
+
 **Example**
 ```py
 n = 4
@@ -112,6 +116,14 @@ for x in d:
 set1 = {10, 30, 20}
 for x in set1:
     print(x)
+
+language = 'Python'
+for letter in language:
+    print(letter)
+
+
+for i in range(len(language)):
+    print(language[i])
 ```
 
 
