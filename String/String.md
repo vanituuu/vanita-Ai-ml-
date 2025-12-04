@@ -1,7 +1,9 @@
 # String
 
 In Python, a string is a sequence of characters enclosed in quotes. It can include letters, numbers, symbols or spaces. Since Python has no separate character type, even a single character is treated as a string with length one. Strings are widely used for text handling and manipulation.
+
 **Example**
+
 ```py
 print("It's alright")
 print("He is called 'Johnny'")
@@ -78,13 +80,14 @@ print(s[::-1])   # reverse string
 Strings are iterable; you can loop through characters one by one.
 
 **Example:** Here, it print each character on its own line.
-
+```py
 s = "Python"
 for char in s:
     print(char)
-
+```
 
 # String Immutability
+
 Strings are immutable, which means that they cannot be changed after they are created. If we need to manipulate strings then we can use methods like concatenation, slicing or formatting to create new strings based on original.
 
 **Example:**
@@ -114,23 +117,28 @@ print(s2)
 Python provides several ways to include variables inside strings.
 
 # 1. Using f-strings
+
 The simplest and most preferred way to format strings is by using f-strings.
 
 **Example:** Embed variables directly using {} placeholders.
-
+```py
 name = "Alice"
 age = 22
 print(f"Name: {name}, Age: {age}"
+```
 
 # 2. Using format()
+
 Another way to format strings is by using format() method.
 
 **Example:** Use placeholders {} and pass values positionally.
-
+```py
 s = "My name is {} and I am {} years old.".format("Alice", 22)
 print(s)
+```
 
 # String Membership Testing
+
 in keyword checks if a particular substring is present in a string.
 
 **Example:** Here, we are testing for the presence of substrings.
@@ -144,6 +152,7 @@ print("GfG" in s)
 ```
 # Reversing a String
 We can easily reverse strings in python.
+
 ```py
 greeting = 'Hello, World!'
 print(greeting[::-1]) # !dlroW ,olleH
@@ -152,6 +161,7 @@ print(greeting[::-1]) # !dlroW ,olleH
 # Skipping Characters While Slicing
 
 It is possible to skip characters while slicing by passing step argument to slice method.
+
 ```py
 language = 'Python'
 pto = language[0:6:2] #
