@@ -78,7 +78,8 @@ else:
   print("i is no longer less than 6")
 ```
 
-**For Loop**
+# For Loop
+
 For loops is used to iterate over a sequence such as a list, tuple, string or range. It allow to execute a block of code
 
 repeatedly, once for each item in the sequence.
