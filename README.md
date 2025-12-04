@@ -39,7 +39,7 @@ This repository contains complete Python notes and code examples for beginners.
 - elif  
 - nested conditions 
 ### 6️⃣ Loops  
--[Loops](Loops/Loops.md)
+-[LOOPS](LOOPS/LOOPS.md)
 - for loop  
 - while loop  
 - break  
