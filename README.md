@@ -33,11 +33,13 @@ This repository contains complete Python notes and code examples for beginners.
 - Comparison Operators
 
 ### 5️⃣ Conditions  
+-[Conditions](Conditions/Conditions.md)
 - if  
 - if-else  
 - elif  
 - nested conditions 
 ### 6️⃣ Loops  
+-[Loops](Loops/Loops.md)
 - for loop  
 - while loop  
 - break  
@@ -49,15 +51,22 @@ This repository contains complete Python notes and code examples for beginners.
 - Return values  
 - Default parameters  
 
-### 8️⃣ Lists  
+### 8️⃣String
+-[String](String/String.md)
+- Creating String
+- String Iteration
+- String Update
+- Concatinate
+- Formatting String
+### 9️⃣Lists  
 - Adding items  
 - Removing items  
 - Looping lists  
 
-### 9️⃣ Tuples  
+### 🔟Tuples  
 - Immutable sequences  
 
-### 🔟Dictionaries  
+### 11 Dictionaries  
 - Key-value pairs  
 - Adding, updating, deleting  
 
