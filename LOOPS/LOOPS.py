@@ -24,6 +24,8 @@ while num>0:
 print(reverse)
 
 # 4. palindrome number.
+# why we compare it with temp_num.because when we used loop the num variable will be empty .
+#So we take a temp var to comapre it wih last.
 num = int(input("Enter the number:"))
 temp_num = num
 reverse =0
