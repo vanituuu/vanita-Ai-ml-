@@ -87,3 +87,16 @@ while num>0:
   count=count+1
   num = num//10
 print(count)
+
+# find all the factor of the number.
+import math
+
+def printDivisor(n):
+    divisors = []
+    for i in range(1, int(math.sqrt(n)) + 1):
+        if n % i == 0:
+            divisors.append(i)
+            if i != n // i:
+                divisors.append(n // i)
+    for d in sorted(divisors):
+        print(d)
