@@ -76,3 +76,12 @@ while i<= Multiplication:
       LCM = i
     i+=1
 print(i)
+
+# 7.count the digit
+num = int(input("Enter the number:"))
+count = 0
+while num>0:
+  digit = num%10
+  count=count+1
+  num = num//10
+print(count)
