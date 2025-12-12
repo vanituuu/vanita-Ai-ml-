@@ -127,7 +127,7 @@ while i <=50:
 num = int(input("Enter the number:"))
 i = 1
 while i<=10:
-    print(num,"X",i,"=",num*i)
+    print(f"{num} X {i} = {num*i}")
     i+=1
 # 13. 1 to 20.
 i = 1
