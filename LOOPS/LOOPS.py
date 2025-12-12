@@ -88,7 +88,7 @@ while num>0:
   num = num//10
 print(count)
 
-# find all the factor of the number.
+# 8 find all the factor of the number.
 import math
 
 def printDivisor(n):
@@ -100,3 +100,38 @@ def printDivisor(n):
                 divisors.append(n // i)
     for d in sorted(divisors):
         print(d)
+# 9. Factorial.
+num = int(input("Enter a number:"))
+mul = 1
+while num>0:
+    mul*=num
+    num-=1
+print(mul)
+
+# 10. single digit .
+num = int(input("enter the number:"))
+count = 0
+while num>0:
+    digit = num%10
+    num=num//10
+    count = digit
+    print(count)
+ # 11. sum of 1 to 50.
+i = 1
+sum = 0
+while i <=50:
+    sum+=i
+    i+=1
+    print(sum)
+# 12. Multiplication.
+num = int(input("Enter the number:"))
+i = 1
+while i<=10:
+    print(num,"X",i,"=",num*i)
+    i+=1
+# 13. 1 to 20.
+i = 1
+while i<=20:
+    if (i%2==0):
+        print("Even number 1 to 20:",i)
+    i+=1
