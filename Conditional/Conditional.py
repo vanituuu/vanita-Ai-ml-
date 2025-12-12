@@ -84,3 +84,17 @@ elif -9999 <= num1 <= 9999:
 else:
     print("invalid syntax.")
 
+
+#  Nested if:
+age = 8
+
+nationality = "american"
+
+if age>=18:
+
+    if nationality == "indian":
+        print("person is eligible for vote.")
+    else:
+        print("you are not eligible.Because you are not indian ")
+else:
+    print("Person is not eligible for vote.You are underage.")
