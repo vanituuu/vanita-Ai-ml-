@@ -76,7 +76,28 @@ Total = movie1  + Popcorn + coldDrink_1
 print("your total bill:",Total)
 
 
+#  calculate simple intrest.
+principle_amount = float(input("enter the amount:"))
+Rate = float(input("enter the rate:"))
+Time = float(input("enter the time:"))
+SI = (principle_amount*Rate*Time)/100
+print(f"Simple Intrest: {SI}")
+Total_amount = principle_amount + SI
+print(f"Total amount you pay:{Total_amount}")
 
+
+# calculate the simple intrest.
+
+Principle_amount = float(input("enter the amount:"))
+Rate = float(input("enter the rate:"))
+Time = int(input("enter the year"))
+T_Days = float(input("enter the days:"))
+SI_Mon = (Principle_amount*Rate*Time)/100
+SI_Day = (Principle_amount*Rate*T_Days)/100*30
+SI = SI_Mon+SI_Day
+print(f"Simple Intrest: {SI}")
+Total_amount = Principle_amount+SI
+print(f"Total amount you pay:{Total_amount}")
 
 
 
