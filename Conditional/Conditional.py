@@ -98,3 +98,69 @@ if age>=18:
         print("you are not eligible.Because you are not indian ")
 else:
     print("Person is not eligible for vote.You are underage.")
+
+
+# leap year.
+year = int(input("enter the year."))
+if year%4==0 and year%100!=0 or year%400 == 0:
+  print("This is leap year.")
+else:
+  print("This is not a leap year.")
+
+
+# nested if.
+year = int(input("enter a number."))
+if year %4==0:
+  if year%100==0:
+     if year%400==0:
+      print("This is leap year.")
+     else:
+      print("this is not a leap year.")
+  else:
+    print("This is a leap year")
+else:
+  print("This is not a leap year.")
+
+#  control flow.
+Gender = input("Enter the gender:") #Male,Female
+Age = int(input("Enter the Age."))
+if Gender == "Male":
+  if Age>=30 and Age<=60:
+    print("you are going to bulding1 of Hotel A.")
+  else:
+    print("You are going to bulding2 of Hotel A.")
+elif Gender == "Female":
+  if Age>=30 and Age<=60:
+    print("You are going to bulding1 of Hotel B. ")
+  else:
+    print("You are going to bulding2 of Hotel B.")
+else:
+  print("invalid..")
+
+
+# simple intrest .
+principle_amount = float(input("enter the principle amount"))
+Rate = float(input("enter the rate:"))
+year = int(input("enter the year."))
+Month = int(input("enter the month."))
+Months = input("enter the month name.")
+days_input = int(input("enter the days."))
+
+
+if Months=="January" or Months=="March" or Months=="May"or Months=="July" or Months=="August" or Months =="Octuber" or Months=="Decmber":
+  Months_days = 31
+elif Months =="February":
+  if year%4==0 and year%100!=0 or year%400==0:
+    Months_days = 29
+  else:
+    Months_days = 28
+else:
+  Months_days = 30
+
+
+SI = (principle_amount*Rate*Month )/100 + (principle_amount*Rate*Days/Months_days)/100
+print("Simple intrest",SI)
+Total_amount = principle_amount+SI
+print("Total amount is",Total_amount)
+
+
