@@ -71,24 +71,28 @@ This repository contains complete Python notes and code examples for beginners.
 - Adding, updating, deleting  
 
 ---
-Introduction:
+# Introduction:
 
 Python is one of the most popular programming languages. It’s simple to use, packed with features and supported by a wide range of libraries and frameworks. Its clean syntax makes it beginner-friendly. It is easy to learn and use
 
 A high-level language, used in web development, data science, automation, AI and more.
+
 Known for its readability, which means code is easier to write, understand and maintain.
+
 Backed by library support, so we don’t have to build everything from scratch
 
 
-Comments:
+# Comments:
 Comments play a crucial role in enhancing code readability and allowing developers to leave notes within their code. In Python, any text preceded by a hash (#) symbol is considered a comment and is not executed when the code runs.
 
-Example: Single Line Comment
+**Example:** Single Line Comment
 
     # This is the first comment
+    
     # This is the second comment
+    
     # Python is eating the world
-Example: Multiline Comment
+**Example:** Multiline Comment
 
 Triple quote can be used for multiline comment if it is not assigned to a variable
 
@@ -97,50 +101,58 @@ multiline comment takes multiple lines.
 python is eating the world
 """
 
-Indentation in Python:
+# Indentation in Python:
 
 In Python, Indentation is used to define blocks of code. It tells the Python interpreter that a group of statements belongs to a specific block. All statements with the same level of indentation are considered part of the same block. Indentation is achieved using whitespace (spaces or tabs) at the beginning of each line. The most common convention is to use 4 spaces or a tab, per level of indentation.
 
-Data types
+# Data types
 
 Data types in Python are a way to classify data items. They represent the kind of value, which determines what operations can be performed on that data. Since everything is an object in Python programming, Python data types are classes and variables are instances (objects) of these classes.
 
 The following are standard or built-in data types in Python:
 
-Numeric: int, float, complex
-Sequence Type: string, list, tuple
-Mapping Type: dict
-Boolean: bool
-Set Type: set, frozenset
-Binary Types: bytes, bytearray, memoryview
-Complex Example 1 + j, 2 + 4j
+**Numeric:** int, float, complex
+
+**Sequence Type:** string, list, tuple
+
+**Mapping Type:** dict
+
+**Boolean:** bool
+
+**Set Type:** set, frozenset
+
+**Binary Types:** bytes, bytearray, memoryview
+
+**Complex Example:** 1 + j, 2 + 4j
 
 
-String
+# String
 
 Strings in Python can be created using single quotes, double quotes or even triple quotes. We can access individual characters of a String using index.
-Example:
-
+**Example:**
+```py
 'Python'
 
 s = 'Welcome to the Python'
 print(s)
+```
 
-Booleans
-
+# Booleans
 
 A boolean data type is either a True or False value. T and F should be always uppercase.
 
-Example:
+**Example:**
 
     True  #  Is the light on? If it is on, then the value is True
     False # Is the light on? If it is off, then the value is False
-List
+    
+# List
 Python list is an ordered collection which allows to store different data type items.Lists in Python can be created by just placing sequence inside the square brackets[].
 
-Example:
+**Example:**
 
-# Empty list
+**Empty list**
+```py
 a = []
 
 # list with int values
@@ -150,24 +162,28 @@ print(a)
 # list with mixed values int and String
 b = ["Welcome", "Everybody", 4, 5]
 print(b)
+```
 
-
-Tuple
+# Tuple
 
 Tuple is an ordered collection of Python objects. The only difference between a tuple and a list is that tuples are immutable. Tuples cannot be modified after it is created.
-Example:
-# initiate empty tuple
+
+**Example:**
+
+**initiate empty tuple**
+```py
 tup1 = ()
 
 tup2 = ('Morning', 'For')
 print("\nTuple with the use of String: ", tup2)
+```
 
-
-Set
+# Set
 
 In Python Data Types, Set is an unordered collection of data types that is iterable, mutable, and has no duplicate elements. The order of elements in a set is undefined though it may consist of various elements.
 
-Example:
+**Example:**
+```py
 set1 = set(["Morning", "and", "Morning"]) #Duplicates are removed automatically
 print(set1) 
 
@@ -177,14 +193,14 @@ for i in set1:
   
 # check if item exist in set   
 print("Morning" in set1)
+```
 
-Dictionary
-
+# Dictionary
 
 A dictionary in Python is a collection of data values.A Dictionary holds a key: value pair. Key-value is provided in dictionary to make it more optimized. Each key-value pair in a Dictionary is separated by a colon : , whereas each key is separated by a ‘comma’.
 
-Example:
-
+**Example:**
+```py
 # initialize empty dictionary
 d = {}
 
@@ -194,3 +210,4 @@ print(d)
 # creating dictionary using dict() constructor
 d1 = dict({1: 'Good Morning', 2: 'All', 3: ''})
 print(d1)
+```
