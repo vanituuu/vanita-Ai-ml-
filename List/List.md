@@ -284,7 +284,7 @@ def printList(self,list):
         else:
             print(list[i],end="")
 ```
-# Another way
+** Another way**
 ```py
 def printList(self,list):
     print(*list,end="")
