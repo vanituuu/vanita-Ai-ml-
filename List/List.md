@@ -134,13 +134,14 @@ The extend() method does not have to append lists, you can add any iterable obje
 
 **Example**
 Add elements of a tuple to a list:
-
+```py
 thislist = ["apple", "banana", "cherry"]
 thistuple = ("kiwi", "orange")
 thislist.extend(thistuple)
 print(thislist)
-
+```
 # Slicing Items from a List
+
 **Positive Indexing:** We can specify a range of positive indexes by specifying the start, end and step, the return value will be a new list. (default values for start = 0, end = len(lst) - 1 (last item), step = 1)
 ```py
 fruits = ['banana', 'orange', 'mango', 'lemon']
@@ -152,11 +153,13 @@ orange_mango_lemon = fruits[1:]
 orange_and_lemon = fruits[::2] # here we used a 3rd argument, step. It will take every 2cnd item - ['banana', 'mango']
 ```
 **Negative Indexing:** We can specify a range of negative indexes by specifying the start, end and step, the return value will be a new list.
+```py
 fruits = ['banana', 'orange', 'mango', 'lemon']
 all_fruits = fruits[-4:] # it returns all the fruits
 orange_and_mango = fruits[-3:-1] # it does not include the last index,['orange', 'mango']
 orange_mango_lemon = fruits[-3:] # this will give starting from -3 to the end,['orange', 'mango', 'lemon']
 reverse_fruits = fruits[::-1] # a negative step will take the list in reverse order,['lemon', 'mango', 'orange', 'banana']
+```
 
 # Joining Lists
 There are several ways to join, or concatenate, two or more lists in Python.
