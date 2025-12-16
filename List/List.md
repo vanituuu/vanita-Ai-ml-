@@ -272,3 +272,27 @@ a = [1, 2, 3, 4, 5]
 res = [val for val in a if val % 2 == 0]
 print(res)
 ```
+
+# Question
+**You are given a list that contains integers. You need to print the elements of the list with a space between them.**
+**Note: Do not add a new line at the end.**
+```py
+def printList(self,list):
+    for i in range(len(list)):
+        if i == len(list) - 1:
+            print(list[i],end="")
+        else:
+            print(list[i],end="")
+```
+# Another way
+```py
+def printList(self,list):
+    print(*list,end="")
+
+```
+
+
+
+
+
+
