@@ -290,9 +290,42 @@ def printList(self,list):
     print(*list,end="")
 
 ```
+-((*lst)unpacking operator)
+- The * unpacks the list
+-  end="" means:
+ “Don’t go to a new line after printing.”
+- sep — separator between values
 
+```py
+print(*[1, 2, 3])
+print(1, end=" ")
+print(2, end=" ")
+print(3, end="")
+```
 
+# You are given a list that contains integers. You need to return the sum of the list.
+```py
+def listSum(arr):
+    return(sum(arr))
+```
+**Another**
+```py
+    def sumElement(self, arr):
+        total = 0
+        for x in arr:
+            total += x
+        return total
+```
 
-
-
-
+# You are given a list that contains integers. You need to decrement each element of the list by 1 and return the list.
+```py
+def decrementList(arr):
+    for i in range(len(arr)):
+        arr[i]-=1
+    return arr
+```
+# You are given three inputs a, b, c. You need to create a list and append a, b, c to the list and then return that list.
+```py
+def appendToList(a,b,c):
+    return[a,b,c]
+```
